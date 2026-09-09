@@ -39,7 +39,7 @@ Original CHIP-8 Keypad              Your Modern QWERTY Mapping
 
 
 
-
+This only affects the things in this repository that has not been noted with a different license.
 
 CC BY-SA 4.0 and GNU GPL v3.0 Conditional Exceptions to use MPL 2.0 and CC BY-SA 4.0 or CC BY 4.0
 
