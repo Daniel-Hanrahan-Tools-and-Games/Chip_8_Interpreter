@@ -19,6 +19,8 @@ copy this into your terminal: gcc -O2 what/directory/its/in/Chip_8_Interpreter.c
 
 <a href="https://github.com/Daniel-Hanrahan-Tools-and-Games/extensions">spec for chip 8 extensions if anyone wants to use features of chip 8 extensions</a>
 
+<a href="https://github.com/Daniel-Hanrahan-Tools-and-Games/chip8-book?tab=License-1-ov-file">proof chip8_spec_info.pdf is in the public domain/equvalent</a>
+
 Controls, only for keyboard so far:
 Original CHIP-8 Keypad              Your Modern QWERTY Mapping
 ┌───┬───┬───┬───┐                   ┌───┬───┬───┬───┐
