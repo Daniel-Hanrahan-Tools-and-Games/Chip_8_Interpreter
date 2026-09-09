@@ -1,7 +1,27 @@
 # Chip_8_Interpreter
 A Chip8 interpreter I made myself.
 
-Warning: This only applies to info about sterling engines, capacitors, and generators if you are not going to use any of that info this warning does not apply to you, info about sterling engines, capacitors, and generators are included in this repository because of a just in case people are in a no electrical grid situation and to connect all this stuff to computing device its engine -> generator -> battery -> computing device and it must be connected like this exactly or it will not work. As far as I am aware this only powers a single computing device and I am not responsible for any mishaps you may have with the sterling engines, capacitors, and generators, risks include but not limited to burns, electrocutions and overloading device with voltage, but I think the documentation on those things has those risks but if they don't I am adding them here.
+
+    Warning—read before using this information
+
+    The information in this repository concerning Stirling engines, generators, capacitor banks, and related electrical components is intended for situations where connection to the electrical grid is unavailable. If you are not using these components, this warning does not apply to you.
+
+    The intended power path is:
+
+    Stirling engine → generator → capacitor bank and required charging/protection circuitry → regulated power supply → one compatible computing device
+
+    This setup is intended to power one compatible computing device only. Do not connect it to household wiring, multiple devices, or the electrical grid. Do not connect the computing device directly to an unregulated generator or capacitor bank. Generator output may fluctuate, and a capacitor bank may release energy rapidly, retain a dangerous charge after shutdown, or provide unstable voltage as it discharges.
+
+    Detailed information about the electrical components, component ratings, wiring, protection requirements, capacitor-discharge procedures, and related hazards is provided on the relevant documentation pages. Read and understand those pages before assembling, connecting, or operating this system. Readers should not follow an isolated instruction without reviewing the associated safety and technical documentation.
+
+    The generator, capacitor bank, charging circuitry, wiring, fuses, connectors, and regulated power supply must be electrically compatible and correctly rated. Appropriate voltage regulation, current limiting, overvoltage protection, overcurrent protection, polarity protection, insulation, ventilation, and an enclosure may be required. Follow the instructions and ratings for every component. If you are uncertain about any connection, consult a qualified electrical professional.
+
+    This project involves serious mechanical, thermal, chemical, and electrical hazards, including but not limited to burns, fire, electric shock, capacitor discharge, arc flash, short circuits, overcurrent, overvoltage, overheating, component failure, and damage to the connected computing device. The Stirling engine and other components may remain hot, and the capacitor bank may remain electrically charged, after shutdown. Do not touch, modify, or service any component until the system has been safely shut down and the capacitor bank has been discharged and verified with an appropriately rated meter.
+
+    Use suitable protective equipment and operate the system in a safe, well-ventilated area away from combustible materials. Do not bypass safety features or use damaged, leaking, swollen, overheated, or unidentified components.
+
+    The authors and contributors provide this information as-is. You use it at your own risk. The authors and contributors are not responsible for injury, death, fire, property damage, equipment damage, data loss, or any other harm resulting from the construction, connection, or use of this project.
+
 
 I have tested the interpreter myself except for beep because no sound driver is connected to it and it works perfectly.
 
