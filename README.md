@@ -32,6 +32,7 @@ Original CHIP-8 Keypad              Your Modern QWERTY Mapping
 └───┴───┴───┴───┘                   └───┴───┴───┴───┘
 
 
+<a href="https://github.com/Daniel-Hanrahan-Tools-and-Games/Chip_8_Interpreter">Repository Page</a>
 
 <a href="https://daniel-hanrahan-tools-and-games.github.io/">Home Page</a>
 
