@@ -23,7 +23,7 @@ A Chip8 interpreter I made myself.
     The authors and contributors provide this information as-is. You use it at your own risk. The authors and contributors are not responsible for injury, death, fire, property damage, equipment damage, data loss, or any other harm resulting from the construction, connection, or use of this project.
 
 
-I have tested the interpreter myself except for beep because no sound driver is connected to it and it works perfectly.
+I have tested the interpreter myself except for beep because no sound driver is connected to it and it works perfectly, when using interpreter in the terminal window, you need to have the terminal window all the way scrolled down to the bottom to see the interpreter window.
 
 How to run software in Chip_8_Interpereter:
 <ol>
