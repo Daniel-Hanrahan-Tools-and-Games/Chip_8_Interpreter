@@ -1,6 +1,8 @@
 # Chip_8_Interpreter
 A Chip8 interpreter I made myself.
 
+Warning: This only applies to info about sterling engines, capacitors, and generators if you are not going to use any of that info this warning does not apply to you, info about sterling engines, capacitors, and generators are included in this repository because of a just in case people are in a no electrical grid situation and to connect all this stuff to computing device its engine -> generator -> battery -> computing device and it must be connected like this exactly or it will not work. As far as I am aware this only powers a single computing device and I am not responsible for any mishaps you may have with the sterling engines, capacitors, and generators, risks include but not limited to burns, electrocutions and overloading device with voltage, but I think the documentation on those things has those risks but if they don't I am adding them here.
+
 I have tested the interpreter myself except for beep because no sound driver is connected to it and it works perfectly.
 
 How to run software in Chip_8_Interpereter:
