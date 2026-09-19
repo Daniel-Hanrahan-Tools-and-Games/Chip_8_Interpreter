@@ -25,6 +25,13 @@ A Chip8 interpreter I made myself.
 
 I have tested the interpreter myself except for beep because no sound driver is connected to it and it works perfectly, when using interpreter in the terminal window, you need to have the terminal window all the way scrolled down to the bottom to see the interpreter window.
 
+Warning: Running some games with this interpreter with an OS has these issues at times
+<ul>
+    <li>Terminal Grid Constraints: Many default terminal windows open to 80x24 characters, which immediately clips or squashes a 64x32 CHIP-8 display unless the user manually resizes the window.</li>
+    <li>Input Buffering & Raw Mode Quirks: Handling non-blocking input via termios on Linux/macOS versus conio.h on Windows can behave completely differently depending on the user's specific shell (Bash, Zsh, PowerShell, Windows Terminal, etc.).</li>
+    <li>ANSI Escape Performance: Pushing a full 64x32 text grid to stdout at 60 FPS relies entirely on the host OS terminal emulator's ability to process ANSI escape sequences (\033[H) without micro-stuttering or tearing.</li>
+</ul>
+
 How to run software in Chip_8_Interpereter:
 <ol>
 <li>Drag interpreter executable into terminal</li>
